@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+aside{
+    background: powderblue;
+    width: 250px;
+    height: 100vh;
+    transition: .5s;
+
+}
+
+.wrapper{
+    display: flex;
+}
+.wrapper main{
+    width: 100%;
+}
+aside.hide{
+    margin-left:-250px; 
+    transform:scale(0)skew(45deg);
+}
+aside nav ul li a{
+    font-size: 20px;
+    display: block;
+    border-bottom: 1px solid black;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: blue;
+    transition: .5s;
+}
+aside nav ul li a:hover{
+    background-color: #333;
+}
+button{
+    font-size: 15px;
+    padding: 10px 15px;
+    background: purple;
+    color: palegreen;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+
+
